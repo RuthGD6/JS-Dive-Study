@@ -1,4 +1,7 @@
-function calculator() {}
+function calculator(){
+
+}
+console.log(calculator(5, 10, "add")); // Output: 15
 
 console.log(calculator("5", "10", "multiply")); // Output: 50 // Warning: Type coercion occurred: "5" (string → number), "10" (string → number).
 
@@ -12,4 +15,4 @@ console.log(calculator(50, " is a number", "add")); // Output: "50 is a number" 
 
 console.log(calculator(40, 30, "add")); // Output: 70
 
-console.log(calculator(100, "1", "add")); // Output: "100 apples" // Warning: Type coercion occurred: 101 (number → string). // Note: Implicit coercion resulted in string concatenation. '
+console.log(calculator(100, "1", "add")); // Output: "100 apples" // Warning: Type coercion occurred: 101 (number → string). // Note: Implicit coercion resulted in string concatenation.
