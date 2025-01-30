@@ -1,5 +1,68 @@
 # Study Note
+**Primitive Types**
+Primitive Types are simple forms of data in JavaScript that cannot be modified once created, are stored directly in memory, are easy to use, and have unlimited flexibility:
+Number (integers and decimals)
+String (text)
+Boolean (true/false)
+Null (intentional null value)
+Undefined (undefined value)
+Symbol (unique identifier)
+BigInt (large integers)
 
+**Type coercion**
+Type coercion is the automatic or implicit conversion of values ​​from one data type to another during operations.
+1: Implicit Coercion
+It occurs automatically when we perform operations between different types
+In operations with +:
+for example
+```javascript
+"5" + 2      // Resultado: "52" (convierte a string)
+"5" + true   // Resultado: "5true"
+In operations with other operators:```javascript
+// En operaciones con otros operadores:
+"5" - 2      // Resultado: 3 (convierte a número)
+"10" * "2"   // Resultado: 20 (convierte a números)
+Explicit Coercion
+2. It is when we force the conversion manually
+for example
+```javascript
+// Convierte string a número: 123
+Number("123")
+
+// Convierte número a string: "123"
+String(123)
+
+// Convierte a booleano: true
+Boolean(1)
+**Reference types**
+1. Objects
+An object is a data structure that allows you to store collections of related data.
+Objects are the foundation of JavaScript. They allow you to organize related data into a single structure.
+2. Arrays
+Arrays are special objects for ordered lists of elements.
+Each property can contain any type of data, including other objects or functions.
+3. Functions
+Functions are objects that can be executed.
+4. Dates
+Special object for handling dates and times.
+5. RegExp (Regular Expressions)
+Objects for working with text patterns.
+6. Map and Set
+Specialized data structures.
+**Arbitrary Operations in JavaScript**
+Arbitrary Operations in JavaScript
+Arbitrary operations refer to basic mathematical operations that we can perform on values.
+The operators (+, -, *, /) work primarily with numbers
+The + operator has special behavior with strings (concatenation)
+The operators automatically convert values ​​as needed
+**Comparison**
+Explanation
+Comparison operations allow you to compare values ​​and return a boolean result (true or false).
+JavaScript has two main types of comparison operators: equality operators (== and ===) and relational operators (>, <, >=, <=).
+== compares value only, with coercion
+=== compare value and type
+Relational operators
+>, >=, <, <=
 # Exercises
 
 | No. | Exercise                                                                                                                        | PR  |
